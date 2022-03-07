@@ -8,7 +8,8 @@ spec:
   - name: one
   - name: host-network-ports
   - name: host-namespace
+  - name: seccomp
   installationParams: {}
   sharing:
     enabled: false
-  version: v1
+  version: v2
