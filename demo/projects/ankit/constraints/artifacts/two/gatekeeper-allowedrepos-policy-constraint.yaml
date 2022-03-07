@@ -9,7 +9,7 @@ spec:
         kinds: ["Pod"]
   parameters:
     repos:
-      - "amazonaws.com" # ECR registry for EKS cluster
+      - "amazonaws.com" # ECR  registry for EKS cluster
       - "artifactory.arlocloud.com" # Arlo artifactory registry
       - "k8s.gcr.io" # Kubernetes registry
       - "registry.rafay-edge.net" # Rafay registry
