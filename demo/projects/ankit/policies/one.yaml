@@ -3,4 +3,12 @@ kind: Policy
 metadata:
   name: one
   project: ankit
-spec: {}
+spec:
+  constraintList:
+  - name: one
+  - name: host-network-ports
+  - name: host-namespace
+  installationParams: {}
+  sharing:
+    enabled: false
+  version: v1
