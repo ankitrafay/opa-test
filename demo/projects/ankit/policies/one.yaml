@@ -5,9 +5,9 @@ metadata:
   project: ankit
 spec:
   installationParams:
-    auditInterval: 62
+    auditInterval: 67
     auditMatchKindOnly: true
-    constraintViolationsLimit: 24
+    constraintViolationsLimit: 28
   sharing:
     enabled: false
-  version: v2
+  version: v3
