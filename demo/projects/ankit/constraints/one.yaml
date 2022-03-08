@@ -7,7 +7,9 @@ metadata:
   project: ankit
 spec:
   artifact:
-    artifact: {}
+    artifact:
+      paths:
+      - name: file://artifacts/one/request-limit-ratio-constraint.yaml
     options: {}
     type: Yaml
   templateName: one
