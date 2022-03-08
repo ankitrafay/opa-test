@@ -4,7 +4,10 @@ metadata:
   name: one
   project: ankit
 spec:
-  installationParams: {}
+  installationParams:
+    auditInterval: 62
+    auditMatchKindOnly: true
+    constraintViolationsLimit: 24
   sharing:
     enabled: false
-  version: v1
+  version: v2
