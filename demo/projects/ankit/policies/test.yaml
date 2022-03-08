@@ -1,0 +1,10 @@
+apiVersion: opa.k8smgmt.io/v3
+kind: Policy
+metadata:
+  name: test
+  project: ankit
+spec:
+  installationParams: {}
+  sharing:
+    enabled: false
+  version: v4
