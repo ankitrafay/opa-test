@@ -1,0 +1,15 @@
+apiVersion: opa.k8smgmt.io/v3
+kind: Policy
+metadata:
+  name: one
+  project: ankit
+spec:
+  constraintList:
+  - name: one
+  installationParams:
+    auditInterval: 23
+    auditMatchKindOnly: true
+    constraintViolationsLimit: 432
+  sharing:
+    enabled: false
+  version: v1
