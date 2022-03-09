@@ -1,0 +1,34 @@
+apiVersion: gitops.k8smgmt.io/v3
+kind: Pipeline
+metadata:
+  name: test
+  project: ankit
+spec:
+  active: true
+  sharing:
+    enabled: false
+  stages:
+  - config:
+      destinationRepo: {}
+      gitToSystemSync: true
+      includedResources:
+      - name: '*'
+      sourceAsDestination: true
+      sourceRepo:
+        path:
+          name: demo2
+        repository: sync-resource
+        revision: main
+      systemToGitSync: true
+    name: test
+    type: SystemSync
+  triggers:
+  - config:
+      repo:
+        paths:
+        - name: demo
+        provider: Github
+        repository: sync-resource
+        revision: main
+    name: test
+    type: Webhook
