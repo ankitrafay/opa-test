@@ -1,10 +1,10 @@
 apiVersion: gitops.k8smgmt.io/v3
 kind: Pipeline
 metadata:
-  name: onev2
+  name: test
   project: ankit
 spec:
-  active: true
+  active: false
   sharing:
     enabled: false
   stages:
@@ -22,13 +22,3 @@ spec:
       systemToGitSync: true
     name: test
     type: SystemSync
-  triggers:
-  - config:
-      repo:
-        paths:
-        - name: demo2
-        provider: Github
-        repository: sync-resource
-        revision: main
-    name: test
-    type: Webhook
