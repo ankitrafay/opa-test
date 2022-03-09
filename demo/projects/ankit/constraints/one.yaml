@@ -9,7 +9,7 @@ spec:
   artifact:
     artifact:
       paths:
-      - name: file://artifacts/one/request-limit-ratio-constraint.yaml
+      - name: file://artifacts/one/container-must-meet-ratio1.yaml
     options: {}
     type: Yaml
   templateName: one
