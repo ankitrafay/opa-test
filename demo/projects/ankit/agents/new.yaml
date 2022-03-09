@@ -1,10 +1,10 @@
 apiVersion: gitops.k8smgmt.io/v3
 kind: Agent
 metadata:
-  name: agent
+  name: new
   project: ankit
 spec:
   active: true
   cluster:
-    name: mini-opa
+    name: mini-opa1
   type: Cluster
