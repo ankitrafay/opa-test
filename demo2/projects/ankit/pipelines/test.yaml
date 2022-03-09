@@ -26,7 +26,7 @@ spec:
   - config:
       repo:
         paths:
-        - name: demo
+        - name: demo2
         provider: Github
         repository: sync-resource
         revision: main
