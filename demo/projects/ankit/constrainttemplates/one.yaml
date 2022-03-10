@@ -9,6 +9,6 @@ spec:
   artifact:
     artifact:
       paths:
-      - name: file://artifacts/one/gatekeeper-allowedrepos-constraint-template-regex.yaml
+      - name: file://artifacts/one/request-limit-ratio-constraint-template.yaml
     options: {}
     type: Yaml
