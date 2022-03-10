@@ -10,5 +10,7 @@ spec:
     artifact:
       paths:
       - name: file://artifacts/one/request-limit-ratio-constraint-template.yaml
-    options: {}
+    options:
+      disableOpenAPIValidation: true
+      force: true
     type: Yaml
