@@ -6,6 +6,6 @@ spec:
   match:
     kinds:
       - apiGroups: [""]
-        kinds: ["pod"]
+        kinds: ["pod-123"]
   parameters:
     ratio: "1df"
