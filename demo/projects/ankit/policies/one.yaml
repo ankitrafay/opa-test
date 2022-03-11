@@ -9,9 +9,13 @@ spec:
   - name: host-network-ports
   - name: host-namespace
   - name: seccomp
-  installationParams: {}
+  - name: host-filesystem
+  installationParams:
+    auditInterval: 60
+    auditMatchKindOnly: true
+    constraintViolationsLimit: 20
   sharing:
     enabled: true
     projects:
     - name: defaultproject
-  version: v2
+  version: v23
