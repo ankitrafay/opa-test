@@ -18,6 +18,7 @@ spec:
     - name: defaultproject
     - name: nishant
   syncObjects:
-  - kind: Pod
+  - group: j,
+    kind: Pod
     version: v1
-  version: v1
+  version: v2
