@@ -3,4 +3,18 @@ kind: Policy
 metadata:
   name: one1v
   project: ankit
-spec: {}
+spec:
+  constraintList:
+  - name: two
+  installationParams:
+    auditFromCache: true
+    auditInterval: 12
+    auditMatchKindOnly: true
+    constraintViolationsLimit: 21
+    enableDeleteOperations: true
+  sharing:
+    enabled: false
+  syncObjects:
+  - kind: Pod
+    version: v1
+  version: v1
