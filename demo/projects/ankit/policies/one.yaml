@@ -11,8 +11,5 @@ spec:
   - name: seccomp
   installationParams: {}
   sharing:
-    enabled: true
-    projects:
-    - name: defaultproject
-    - name: nishant
+    enabled: false
   version: v2
