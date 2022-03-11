@@ -1,0 +1,19 @@
+apiVersion: infra.k8smgmt.io/v3
+kind: Addon
+metadata:
+  name: sdfd
+  project: ankit
+spec:
+  artifact:
+    artifact:
+      configmap:
+        name: file://artifacts/sdfd/alertmanager-configMap.yaml
+      configuration:
+        name: file://artifacts/sdfd/alertmanager-configuration.yaml
+      secret:
+        name: file://artifacts/sdfd/alertmanager-secret.yaml
+      statefulset:
+        name: file://artifacts/sdfd/alertmanager-statefulSet.yaml
+    type: AlertManager
+  sharing:
+    enabled: false
