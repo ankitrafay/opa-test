@@ -5,7 +5,7 @@ metadata:
   project: ankit
 spec:
   agents:
-  - name: test
+  - name: v2
   credentials:
     password: sealed://credentials.password
     username: ankit@rafay.co
