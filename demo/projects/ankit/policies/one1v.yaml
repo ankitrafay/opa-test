@@ -13,10 +13,7 @@ spec:
     constraintViolationsLimit: 21
     enableDeleteOperations: true
   sharing:
-    enabled: true
-    projects:
-    - name: defaultproject
-    - name: nishant
+    enabled: false
   syncObjects:
   - group: j,
     kind: Pod
