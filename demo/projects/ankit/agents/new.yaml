@@ -4,7 +4,7 @@ metadata:
   name: new
   project: ankit
 spec:
-  active: true
+  active: false
   cluster:
     name: mini-opa1
   type: Cluster
