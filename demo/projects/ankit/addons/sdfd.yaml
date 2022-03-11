@@ -17,3 +17,4 @@ spec:
     type: AlertManager
   sharing:
     enabled: false
+  version: v1

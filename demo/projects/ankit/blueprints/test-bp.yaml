@@ -4,12 +4,24 @@ metadata:
   name: test-bp
   project: ankit
 spec:
+  base:
+    name: default
+    version: 1.12.0
+  customAddons:
+  - name: sdfd
+    version: v1
   defaultAddons:
-    enableIngress: false
-    enableLogging: false
-    enableMonitoring: false
+    enableIngress: true
+    enableLogging: true
+    enableMonitoring: true
     enableVM: false
   drift:
     enabled: false
+  psp:
+    enabled: true
+    names:
+    - rafay-privileged-psp
+    scope: Namespace
   sharing:
     enabled: false
+  version: v1
