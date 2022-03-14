@@ -21,7 +21,7 @@ spec:
   opaPolicy:
     enabled: true
     name: one
-    version: v23
+    version: v2
   psp:
     enabled: true
     names:
@@ -29,4 +29,4 @@ spec:
     scope: Namespace
   sharing:
     enabled: false
-  version: v1
+  version: v2
