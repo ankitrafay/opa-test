@@ -1,0 +1,13 @@
+apiVersion: infra.k8smgmt.io/v3
+kind: Addon
+metadata:
+  name: test
+  project: ankit
+spec:
+  artifact:
+    artifact: {}
+    options: {}
+    type: Yaml
+  namespace: test
+  sharing:
+    enabled: false
