@@ -18,10 +18,7 @@ spec:
     enableVM: false
   drift:
     enabled: false
-  opaPolicy:
-    enabled: true
-    name: one
-    version: v23
+  opaPolicy: {}
   psp:
     enabled: true
     names:

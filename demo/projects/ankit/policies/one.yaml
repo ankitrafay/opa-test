@@ -15,7 +15,5 @@ spec:
     auditMatchKindOnly: true
     constraintViolationsLimit: 20
   sharing:
-    enabled: true
-    projects:
-    - name: defaultproject
+    enabled: false
   version: v23
