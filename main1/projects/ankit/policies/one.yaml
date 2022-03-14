@@ -1,0 +1,19 @@
+apiVersion: opa.k8smgmt.io/v3
+kind: Policy
+metadata:
+  name: one
+  project: ankit
+spec:
+  constraintList:
+  - name: one
+  - name: host-network-ports
+  - name: host-namespace
+  - name: seccomp
+  - name: host-filesystem
+  installationParams:
+    auditInterval: 60
+    auditMatchKindOnly: true
+    constraintViolationsLimit: 20
+  sharing:
+    enabled: false
+  version: v23
