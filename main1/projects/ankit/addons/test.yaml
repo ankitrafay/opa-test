@@ -5,9 +5,12 @@ metadata:
   project: ankit
 spec:
   artifact:
-    artifact: {}
+    artifact:
+      paths:
+      - name: file://artifacts/test/crd-constraint.yaml
     options: {}
     type: Yaml
   namespace: test
   sharing:
     enabled: false
+  version: v1
