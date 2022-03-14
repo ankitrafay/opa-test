@@ -4,7 +4,7 @@ metadata:
   name: new-pipe
   project: ankit
 spec:
-  active: false
+  active: true
   sharing:
     enabled: false
   stages:
