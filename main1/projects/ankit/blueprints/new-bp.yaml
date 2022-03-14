@@ -1,0 +1,31 @@
+apiVersion: infra.k8smgmt.io/v3
+kind: Blueprint
+metadata:
+  name: new-bp
+  project: ankit
+spec:
+  base:
+    name: default
+    version: 1.12.0
+  customAddons:
+  - name: sdfd
+    version: v1
+  defaultAddons:
+    enableIngress: true
+    enableLogging: true
+    enableMonitoring: true
+    enableVM: false
+  drift:
+    enabled: false
+  opaPolicy:
+    enabled: true
+    name: one
+    version: v2
+  psp:
+    enabled: true
+    names:
+    - rafay-privileged-psp
+    scope: Namespace
+  sharing:
+    enabled: false
+  version: v2
