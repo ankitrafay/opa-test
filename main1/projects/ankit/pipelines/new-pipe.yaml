@@ -29,6 +29,6 @@ spec:
         - name: main
         provider: Github
         repository: sync-resource
-        revision: main
+        revision: main1
     name: test
     type: Webhook
