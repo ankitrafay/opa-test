@@ -29,4 +29,4 @@ spec:
     scope: Namespace
   sharing:
     enabled: false
-  version: v12
+  version: v1
