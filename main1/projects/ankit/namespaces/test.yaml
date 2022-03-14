@@ -3,4 +3,14 @@ kind: Namespace
 metadata:
   name: test
   project: ankit
-spec: {}
+spec:
+  drift:
+    enabled: false
+  limitRange:
+    container: {}
+    pod: {}
+  placement:
+    labels:
+    - key: rafay.dev/clusterName
+      value: mini-opa1
+  resourceQuotas: {}
