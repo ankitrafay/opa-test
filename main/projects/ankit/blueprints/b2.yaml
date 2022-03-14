@@ -1,7 +1,7 @@
 apiVersion: infra.k8smgmt.io/v3
 kind: Blueprint
 metadata:
-  description: csdv
+  description: csdvsd
   name: test-bp1
   project: ankit
 spec:
@@ -29,4 +29,4 @@ spec:
     scope: Namespace
   sharing:
     enabled: false
-  version: v7
+  version: new
