@@ -11,7 +11,7 @@ spec:
   - config:
       destinationRepo: {}
       includedResources:
-      - name: OPAConstraintTemplate
+      - name: OPAConstraint
       sourceAsDestination: true
     name: test
     type: SystemSync
