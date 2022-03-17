@@ -5,9 +5,12 @@ metadata:
   project: ankit
 spec:
   artifact:
-    artifact: {}
+    artifact:
+      paths:
+      - name: file://artifacts/test2/request-limit-ratio-constraint-template.yaml
     options: {}
     type: Yaml
   namespace: test
   sharing:
     enabled: false
+  version: w
