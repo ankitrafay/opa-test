@@ -21,7 +21,10 @@ spec:
     enableVM: false
   drift:
     enabled: false
-  opaPolicy: {}
+  opaPolicy:
+    enabled: true
+    name: one
+    version: v23
   sharing:
     enabled: false
-  version: dependency
+  version: v1w
