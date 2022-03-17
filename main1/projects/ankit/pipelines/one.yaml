@@ -11,6 +11,8 @@ spec:
   - config:
       destinationRepo: {}
       includedResources:
+      - name: OPAPolicy
+      - name: OPAConstraintTemplate
       - name: OPAConstraint
       sourceAsDestination: true
     name: test
